@@ -3,7 +3,7 @@
 using namespace std;
 
 int main() {
-    string tasks[100];  // Array for tasks (DSA practice)
+    string tasks[100];  
     int taskCount = 0;
     int choice;
 
@@ -15,7 +15,7 @@ int main() {
         cout << "4. Exit\n";
         cout << "Choice: ";
         cin >> choice;
-        cin.ignore();  // Clear input buffer
+        cin.ignore();  
 
         if (choice == 1) {
             if (taskCount < 100) {
